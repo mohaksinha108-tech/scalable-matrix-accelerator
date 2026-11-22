@@ -1,0 +1,16 @@
+Corrected simulation output (provided)
+======================================
+
+Result: ALL TESTS PASSED
+Total tests: 117
+Passed: 117
+Failed: 0
+
+The corrected output reports PASS for all directed and randomized tests. Example results:
+
+PASS | Test 1 | a=0 b=0 en=0 reset=1 | acc=0
+PASS | Test 5 | a=-5 b=4 en=1 reset=0 | acc=22
+PASS | Test 8 | a=127 b=127 en=1 reset=0 | acc=16151
+PASS | Test 18 | a=101 b=-53 en=1 reset=0 | acc=-5327
+
+The pasted corrected output is summarized here; this is not a newly executed simulation log.

@@ -1,0 +1,15 @@
+Failed simulation output (provided)
+===================================
+
+Result: TESTS FAILED
+Total tests: 117
+Passed: 7
+Failed: 110
+
+The first mismatches occurred on the signed-negative input cases. For example:
+
+FAIL | Test 5 | a=-5 b=4 en=1 reset=0 | Expected=22 Got=1046
+FAIL | Test 6 | a=5 b=-4 en=1 reset=0 | Expected=2 Got=2306
+FAIL | Test 7 | a=-5 b=-4 en=1 reset=0 | Expected=22 Got=65558
+
+The supplied run also reported a timescale inheritance warning. This file records a concise summary of the failed output pasted in the conversation, not a newly executed simulation log.
