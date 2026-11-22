@@ -1,14 +1,14 @@
 MAC unit files
 ===============
 
-- `design.sv`: signed multiply-accumulate RTL.
-- `testbench.sv`: directed and randomized self-checking testbench.
-- `failed_results.txt` and `corrected_results.txt`: summaries of the two simulation outputs provided.
+- `mac.v`: signed multiply-accumulate RTL.
+- `tb_mac.v`: directed and randomized self-checking testbench.
+- `failed_results.txt` and `corrected_results.txt`: summaries of the simulation runs.
 
 Run from this directory with Icarus Verilog:
 
 ```sh
-iverilog -Wall -g2012 -o mac_sim design.sv testbench.sv
+iverilog -Wall -g2012 -o mac_sim mac.v tb_mac.v
 vvp mac_sim
 ```
 
